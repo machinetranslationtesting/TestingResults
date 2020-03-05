@@ -83,6 +83,46 @@ For English->Hindi Setting:
 
 :point_right: More translation errors in Google Translate detected by <em>PatInv</em> for English->Hindi setting can be found [here](errorsgooglehindi.md).
 
+For English->Chinese Setting:
+
+| Issue 1 |
+| :--- |
+| I am very willing to share my point of view. |
+| I am very willing to share my point of wisdom. |
+| 我非常愿意分享我的观点。 |
+| second |
+
+| Issue 2 |
+| :--- |
+| Before, economists used to work on public data. |
+| Before, economists used to look on public data. |
+| 以前，经济学家曾经研究过公共数据。 |
+| second |
+
+| Issue 3 |
+| :--- |
+| Other tech companies that also make effective use of economists — like Uber, which has a 30 person team — speak with frank admiration of the apparatus Amazon has built. |
+| Other tech companies that also make effective use of economists — like Uber, which has a 30 men team — speak with frank admiration of the apparatus Amazon has built. |
+| 其他也有效利用经济学家的科技公司，例如拥有30人团队的优步（Uber），坦率地钦佩亚马逊制造的设备。 |
+| second |
+
+| Issue 4 |
+| :--- |
+| The South has emerged as a hub of new auto manufacturing by foreign makers thanks to lower manufacturing costs and less powerful unions. |
+| The South has died as a hub of new auto manufacturing by foreign makers thanks to lower manufacturing costs and less powerful unions. |
+| 由于较低的制造成本和较弱的工会，南方已经成为外国制造商新汽车制造的枢纽。 |
+| both |
+
+| Issue 5 |
+| :--- |
+| Trump has not repaired his relationship with Bannon after a bitter split, people familiar with the two men say. |
+| Trump has not repaired his relationship with Bannon after a bitter split, people familiar say. |
+| 知情人士说，在痛苦的分裂之后，特朗普没有恢复与班农的关系。 |
+| first |
+
+:point_right: More translation errors in Google Translate detected by <em>PatInv</em> for English->Chinese setting can be found [here](errorsgooglechinese.md).
+
+
 ### Bing Microsoft Translator
 
 For English->Hindi setting:
@@ -125,3 +165,43 @@ For English->Hindi setting:
 
 
 :point_right: More translation errors in Bing Microsoft Translator detected by <em>PatInv</em> for Eng->Hindi setting can be found [here](errorsbinghindi.md).
+
+
+For English->Chinese Setting:
+
+| Issue 1 |
+| :--- |
+| They are doing something completely different. |
+| They are doing something really different. |
+| 他们正在做一些完全不同的事情。 |
+| second |
+
+| Issue 2 |
+| :--- |
+| I am very willing to share my point of view. |
+| I am very willing to share my board of view. |
+| 我非常愿意分享我的观点。 |
+| both |
+
+| Issue 3 |
+| :--- |
+| At its peak in 2014, the blood testing startup was a darling of Silicon Valley. |
+| At its peak in 2014, the blood testing startup was a darling of Silicon county. |
+| 在2014年达到顶峰时，这家血液检测初创公司是硅谷的宠儿。 |
+| second |
+
+| Issue 4 |
+| :--- |
+| You could interview for lots of jobs at the same time, said Fairweather, who left Amazon in 2018 to become the chief economist for the real estate website Redfin. |
+| You could interview for lots of jobs at the same time, said Fairweather, who left Amazon in 2018 to the chief economist for the real estate website Redfin. |
+| 费尔韦瑟说，你可以同时面试很多工作，他于2018年离开亚马逊，成为房地产网站Redfin的首席经济学家。 |
+| second |
+
+| Issue 5 |
+| :--- |
+| The threatened tariffs led to the European Union pledging countertariffs. |
+| The threatened tariffs led to the Union pledging countertariffs. |
+| 威胁的关税导致欧盟承诺反关税。 |
+| second |
+
+:point_right: More translation errors in Bing Microsoft Translator detected by <em>PatInv</em> for English->Chinese setting can be found [here](errorsbingchinese.md).
