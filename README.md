@@ -2,7 +2,7 @@
 
 Translation errors found by our approach in [Google Translate](https://translate.google.com/) and [Bing Microsoft Translator](https://www.bing.com/translator). 
 
-we introduce a novel methodology called PatInv for validating machine translation software. The main intuition behind PatInv is that sentences with different meanings should not have the same translations. Hence, we find pair of sentences with different meanings but same translations. PatInv is able to find many translation errors in on two language settings (Eng->Hindi and Eng->Chinese). We will keep updating the erroneous translations uncovered by PatInv to this repo.
+we introduce a novel methodology called PatInv for validating machine translation software. The main intuition behind PatInv is that sentences with different meanings should not have the same translations. Hence, we find pair of sentences with different meanings but same translations. PatInv is able to find many translation errors in on two language settings (Eng->Hindi and Eng->Chinese). We will keep updating the erroneous translations uncovered by PatInv to this repo. A pathological invariant is a pair of sentences that are of different meanings but obtain the same translation. We use "pathological invariant" and "erroneous issue" interchangeably in the paper.
 
 
 ### Template in the translation error examples: :telescope: 
@@ -99,6 +99,7 @@ For English->Chinese Setting:
 | I am very willing to share my point of wisdom. |
 | 我非常愿意分享我的观点。 |
 | second |
+| I am very willing to share my point of view. |
 
 | Issue 2 |
 | :--- |
@@ -106,6 +107,7 @@ For English->Chinese Setting:
 | Before, economists used to look on public data. |
 | 以前，经济学家曾经研究过公共数据。 |
 | second |
+| Before, economists used to work on public data. |
 
 | Issue 3 |
 | :--- |
@@ -113,6 +115,7 @@ For English->Chinese Setting:
 | Other tech companies that also make effective use of economists — like Uber, which has a 30 men team — speak with frank admiration of the apparatus Amazon has built. |
 | 其他也有效利用经济学家的科技公司，例如拥有30人团队的优步（Uber），坦率地钦佩亚马逊制造的设备。 |
 | second |
+| Other tech companies that also make effective use of economists — like Uber, which has a 30 person team — speak with frank admiration of the apparatus Amazon has built. |
 
 | Issue 4 |
 | :--- |
@@ -120,6 +123,7 @@ For English->Chinese Setting:
 | The South has died as a hub of new auto manufacturing by foreign makers thanks to lower manufacturing costs and less powerful unions. |
 | 由于较低的制造成本和较弱的工会，南方已经成为外国制造商新汽车制造的枢纽。 |
 | both |
+| The South has become a hub of new auto manufacturing by foreign makers thanks to lower manufacturing costs and less powerful unions. |
 
 | Issue 5 |
 | :--- |
@@ -127,6 +131,7 @@ For English->Chinese Setting:
 | Trump has not repaired his relationship with Bannon after a bitter split, people familiar say. |
 | 知情人士说，在痛苦的分裂之后，特朗普没有恢复与班农的关系。 |
 | first |
+| Trump has not repaired his relationship with Bannon after a bitter split, people familiar say. |
 
 :point_right: More translation errors in Google Translate detected by <em>PatInv</em> for English->Chinese setting can be found [here](errorsgooglechinese.md).
 
@@ -183,17 +188,19 @@ For English->Chinese Setting:
 
 | Issue 1 |
 | :--- |
-| They are doing something completely different. |
-| They are doing something really different. |
-| 他们正在做一些完全不同的事情。 |
-| second |
+| Deutsche Bank investors are running out of patience. |
+| Deutsche game investors are running out of patience. |
+| 德意志银行的投资者已经没有耐心了。 |
+| both |
+| Deutsche Bank investors are out of patience. |
 
 | Issue 2 |
 | :--- |
 | I am very willing to share my point of view. |
-| I am very willing to share my board of view. |
+| I am very willing to share my mission of view. |
 | 我非常愿意分享我的观点。 |
-| both |
+| second |
+| I am very willing to share my point of view. |
 
 | Issue 3 |
 | :--- |
@@ -201,6 +208,7 @@ For English->Chinese Setting:
 | At its peak in 2014, the blood testing startup was a darling of Silicon county. |
 | 在2014年达到顶峰时，这家血液检测初创公司是硅谷的宠儿。 |
 | second |
+| At its peak in 2014, the blood testing startup was a darling of Silicon Valley. |
 
 | Issue 4 |
 | :--- |
@@ -208,6 +216,7 @@ For English->Chinese Setting:
 | You could interview for lots of jobs at the same time, said Fairweather, who left Amazon in 2018 to the chief economist for the real estate website Redfin. |
 | 费尔韦瑟说，你可以同时面试很多工作，他于2018年离开亚马逊，成为房地产网站Redfin的首席经济学家。 |
 | second |
+| You could interview for lots of jobs at the same time, said Fairweather, who left Amazon in 2018 to become the chief economist for the real estate website Redfin. |
 
 | Issue 5 |
 | :--- |
@@ -215,5 +224,6 @@ For English->Chinese Setting:
 | The threatened tariffs led to the Union pledging countertariffs. |
 | 威胁的关税导致欧盟承诺反关税。 |
 | second |
+| The threatened tariffs led to the European Union pledging countertariffs. |
 
 :point_right: More translation errors in Bing Microsoft Translator detected by <em>PatInv</em> for English->Chinese setting can be found [here](errorsbingchinese.md).
